@@ -1,0 +1,572 @@
+	d->x_s -= size;
+	d->y_s += size;
+	d->y_s -= size * 2;
+	d->x_s += size * 2;
+	d->x_s = d->x_e - size;
+	d->y_s = d->y_e + size;
+	d->y_s -= size * 2;
+	d->x_s += size * 2;
+	d->x_s = b->x + d->width * 20 / 2500;
+	d->y_s = b->y + d->height * 20 / 1300;
+	d->x_e = b->x + d->width * 80 / 2500;
+	d->y_e = b->y + d->height * 20 / 1300;
+	d->x_e = b->x + d->width * 30 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + d->width * 30 / 2500;
+	d->y_s = b->y + d->height * 60 / 1300;
+	d->x_e = b->x + d->width * 70 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + d->width * 80 / 2500;
+	d->y_s = b->y + d->height * 20 / 1300;
+	d->x_e = b->x + d->width * 70 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + d->width * 80 / 2500;
+	d->y_s = b->y + d->height * 35 / 1300;
+	d->x_e = b->x + d->width * 60 / 2500;
+	d->y_e = b->y + d->height * 20 / 1300;
+	d->x_s = b->x + d->width * 30 / 2500;
+	d->y_s = b->y + d->height * 60 / 1300;
+	d->x_e = b->x + d->width * 30 / 2500;
+	d->y_e = b->y + d->height * 40 / 1300;
+	d->x_s = b->x + d->width * 30 / 2500;
+	d->y_s = b->y + d->height * 40 / 1300;
+	d->x_e = b->x + d->width * 70 / 2500;
+	d->y_e = b->y + d->height * 40 / 1300;
+	d->x_s = b->x + d->width * 70 / 2500;
+	d->y_s = b->y + d->height * 40 / 1300;
+	d->x_e = b->x + d->width * 70 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + d->width * 20 / 2500;
+	d->y_s = b->y + d->height * 20 / 1300;
+	d->x_e = b->x + d->width * 60 / 2500;
+	d->y_e = b->y + d->height * 20 / 1300;
+	d->x_e = b->x + d->width * 20 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + d->width * 20 / 2500;
+	d->y_s = b->y + d->height * 60 / 1300;
+	d->x_e = b->x + d->width * 80 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + d->width * 80 / 2500;
+	d->y_s = b->y + d->height * 60 / 1300;
+	d->x_e = b->x + d->width * 80 / 2500;
+	d->y_e = b->y + d->height * 35 / 1300;
+	d->x_s = b->x + d->width * 20 / 2500;
+	d->y_s = b->y + d->height * 10 / 1300;
+	d->x_e = b->x + d->width * 80 / 2500;
+	d->y_e = b->y + d->height * 10 / 1300;
+	d->x_s = d->x_e;
+	d->y_s = d->y_e;
+	d->x_e = b->x + d->width * 20 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = d->x_e;
+	d->y_s = d->y_e;
+	d->x_e = b->x + d->width * 80 / 2500;
+	d->y_e = b->y + d->height * 60 / 1300;
+	d->x_s = b->x + (b->x_len * 20 / 100);
+	d->y_s = b->y + (b->y_len * 20 / 40);
+	d->x_e = b->x + (b->x_len * 80 / 100);
+	d->y_e = b->y + (b->y_len * 20 / 40);
+	d->x_s = b->x + (b->x_len * 20 / 100);
+	d->y_s = b->y + (b->y_len * 20 / 40);
+	d->x_e = b->x + (b->x_len * 40 / 100);
+	d->y_e = b->y + (b->y_len * 5 / 40);
+	d->x_s = b->x + (b->x_len * 20 / 100);
+	d->y_s = b->y + (b->y_len * 20 / 40);
+	d->x_e = b->x + (b->x_len * 40 / 100);
+	d->y_e = b->y + (b->y_len * 35 / 40);
+	d->x_s = b->x + (b->x_len * 20 / 100);
+	d->y_s = b->y + (b->y_len * 20 / 40);
+	d->x_e = b->x + (b->x_len * 80 / 100);
+	d->y_e = b->y + (b->y_len * 20 / 40);
+	d->x_s = b->x + (b->x_len * 80 / 100);
+	d->y_s = b->y + (b->y_len * 20 / 40);
+	d->x_e = b->x + (b->x_len * 60 / 100);
+	d->y_e = b->y + (b->y_len * 5 / 40);
+	d->x_s = b->x + (b->x_len * 80 / 100);
+	d->y_s = b->y + (b->y_len * 20 / 40);
+	d->x_e = b->x + (b->x_len * 60 / 100);
+	d->y_e = b->y + (b->y_len * 35 / 40);
+	ft_init_but(&(d->but[1]), d->width * 100 / 2500, d->height * 80 / 1300,
+		d->img.net.width + d->width * 10 / 2500);
+	ft_init_but_2(&(d->but[1]), d->height * 1200 / 1300, 0x34D800FF);
+	ft_button(d, &(d->but[1]));
+	ft_save(d, &d->but[1]);
+	ft_init_but(&(d->but[0]), d->width * 100 / 2500, d->height * 80 / 1300,
+		d->img.net.width + d->width * 580 / 2500);
+	ft_init_but_2(&(d->but[0]), d->height * 1200 / 1300, 0x34D800FF);
+	ft_button(d, &(d->but[0]));
+	ft_trash(d, &d->but[0]);
+	ft_init_but(&(d->but[2]), d->width * 100 / 2500, d->height * 80 / 1300,
+		d->img.net.width + d->width * 150 / 2500);
+	ft_init_but_2(&(d->but[2]), d->height * 1200 / 1300, 0x34D800FF);
+	ft_button(d, &(d->but[2]));
+	ft_ctrz(d, &d->but[2]);
+	ft_init_but(&(d->but[3]), d->img.menu.width - d->width * 65 / 2500, d->height * 200 / 1300, d->img.net.width + d->width * 65 / 2500 / 2);
+	ft_init_but_2(&(d->but[3]), d->img.menu.height / 3 + d->height * 19 / 1300, 0x34D800FF);
+	ft_button(d, &(d->but[3]));
+	ft_init_but(&(d->but[4]), d->width * 100 / 2500, d->height * 40 / 1300, d->img.net.width + d->width * 40 / 2500);
+	ft_init_but_2(&(d->but[4]), d->img.menu.height / 4 + d->height * 60 / 1300, 0x34D800FF);
+	ft_button(d, &(d->but[4]));
+	ft_left(d, &d->but[4]);
+	ft_init_but(&(d->but[5]), d->width * 100 / 2500, d->height * 40 / 1300, d->img.net.width + d->width * 560 / 2500);
+	ft_init_but_2(&(d->but[5]), d->img.menu.height / 4 + d->height * 60 / 1300, 0x34D800FF);
+	ft_button(d, &(d->but[5]));
+	ft_right(d, &d->but[5]);
+				ft_surface_set_pixel(d->sdl.sur_ptr, x_tmp, y_tmp, d->color.menu);
+				ft_surface_set_pixel(d->sdl.sur_ptr, x_tmp, y_tmp, d->color.menu);
+	if (lst->ceil_tex == d->nb_tex - 1)
+		lst->ceil_tex = d->nb_tex - 2;
+	if (lst->floor_tex == d->nb_tex - 1)
+		lst->floor_tex = d->nb_tex - 2;
+	b.y = d->img.menu.height / 3 + 22 + 100;
+	d->x_s = b.x;
+	d->y_s = b.y + 5;
+	d->x_e = b.x;
+	d->y_e = b.y + 80;
+	// mlx_put_image_to_window(d->img.mlx_ptr, d->img.win_ptr,
+	// 	d->img.menu.img_ptr, d->border, 1);
+	tmp = d->lines;
+		d->x_s = (int)(tmp->x_s * (int)(d->c * d->scale));
+		d->y_s = (int)(tmp->y_s * (int)(d->c * d->scale));
+		d->x_e = (int)(tmp->x_e * (int)(d->c * d->scale));
+		d->y_e = (int)(tmp->y_e * (int)(d->c * d->scale));
+		ft_draw_start_end(d, d->frame_size);
+		d->x_s = (int)(tmp->x_s * (int)(d->c * d->scale));
+		d->y_s = (int)(tmp->y_s * (int)(d->c * d->scale));
+		d->x_e = (int)(tmp->x_e * (int)(d->c * d->scale));
+		d->y_e = (int)(tmp->y_e * (int)(d->c * d->scale));
+		if (d->flags & 1)
+			ft_wall_texture(d, d->frame_size * 8, tmp);
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = d->y_s + 30 * b->y_len / 40;
+	d->x_e = b->x + off;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_s = b->x + off + 20 * b->x_len / 120;
+	d->x_e = d->x_s;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->y_e = d->y_s + 30 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->x_e = b->x + off;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = d->y_s - 30 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s;
+	d->y_e = d->y_s + 15 * b->y_len / 40;
+	d->x_s = d->x_e + 20 * b->x_len / 120;
+	d->y_s = d->y_e;
+	d->x_e = d->x_s;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->y_e = d->y_s + 30 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = d->y_s - 15 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->x_e = d->x_s;
+	d->y_e = d->y_s - 15 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->x_e = d->x_s;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_s = d->x_s + 20 * b->x_len / 120;
+	d->x_e = d->x_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->y_s = d->y_e + 30 * b->y_len / 40;
+	d->x_s = d->x_e;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->x_e = d->x_s;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->x_s = d->x_e;
+	d->x_s = b->x + off;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_e = d->x_s + 20 * b->x_len / 120;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->y_s = d->y_s + 15 * b->y_len / 40;
+	d->y_e = d->y_s;
+	d->x_s = d->x_e;
+	d->y_s = b->y + 5 * b->y_len / 40;
+	d->x_s = b->x + off;
+	d->x_e = d->x_s;
+	d->y_e = d->y_s + 15 * b->y_len / 40;
+	if (!(d->flags & 1))
+	sur = d->textures[d->nb_tex_set];
+			ft_surface_set_pixel(d->sdl.sur_ptr, x + j, y + i, ft_texture_get_pixel(sur,
+	d->x_s = ft_where_point(d->x_s, d);
+	d->x_e = ft_where_point(d->x_e, d);
+	d->y_s = ft_where_point(d->y_s, d);
+	d->y_e = ft_where_point(d->y_e, d);
+	d->x_s = d->line_x;
+	d->y_s = d->line_y;
+	if (!(d->flags & (1 << 1)))
+	x = d->sdl.event.button.x;
+	y = d->sdl.event.button.y;
+	if (x >= d->border)
+		x = d->border;
+	if (y >= d->height)
+		y = d->height;
+	d->x_e = x;
+	d->y_e = y;
+	d->x_s = d->player->pos.x * (int)(d->c * d->scale);
+	d->y_s = d->player->pos.y * (int)(d->c * d->scale);
+	d->x_e = d->img.net.width;
+	d->y_e = d->y_s + (d->x_e - d->x_s) * tan(rad);
+	d->y_e = d->y_s - (d->x_e - d->x_s) * tan(rad);
+	if (d->player->is == 0 || !(d->flags & (1 << 3)))
+	size = d->player->but.x_len;
+	d->player->but.x = d->player->pos.x * (int)(d->c * d->scale) - d->player->but.x_len / 2;
+	d->player->but.y = d->player->pos.y * (int)(d->c * d->scale) - d->player->but.y_len / 2;
+				ft_surface_set_pixel(d->sdl.sur_ptr, d->player->but.x + j, d->player->but.y + i, 0x5588FF);
+				ft_surface_set_pixel(d->sdl.sur_ptr, d->player->but.x + j, d->player->but.y + i, 0x000000);
+	while (SDL_PollEvent(&d->sdl.event))
+		x = d->sdl.event.button.x;
+		y = d->sdl.event.button.y;
+		if (d->sdl.event.type == SDL_MOUSEBUTTONDOWN &&
+			d->sdl.event.button.button == SDL_BUTTON_LEFT)
+			if (ft_is_but_area(d->smenu.ok, d->sdl.event.button.x,
+				d->sdl.event.button.y))
+			else if (ft_is_but_area(d->smenu.ce_num, x, y))
+				d->flags = (1 << 3);
+			else if (ft_is_but_area(d->smenu.fl_num, x, y))
+				d->flags = (1 << 4);
+				d->flags = 0;
+				if (ft_is_but_area(d->smenu.ce_right, x, y))
+				else if (ft_is_but_area(d->smenu.ce_left, x, y))
+				if (ft_is_but_area(d->smenu.fl_right, x, y))
+				else if (ft_is_but_area(d->smenu.fl_left, x, y))
+		else if (d->sdl.event.type == SDL_KEYDOWN)
+			if (d->sdl.event.key.keysym.sym == SDLK_RETURN)
+			else if (d->flags == 1 << 3)
+			else if (d->flags == 1 << 4)
+		SDL_UpdateWindowSurface(d->sdl.win_ptr);
+	cur_sec = d->sect_head;
+			SDL_UpdateWindowSurface(d->sdl.win_ptr);
+	SDL_DestroyWindow(d->sdl.win_ptr);
+	if (d->sdl.event.key.keysym.sym == SDLK_ESCAPE)
+	else if (d->sdl.event.key.keysym.sym == SDLK_p)
+		if (!(d->flags & (1 << 3)))
+			d->flags |= (1 << 3);
+			d->flags &= ~(1 << 3);
+	else if (d->sdl.event.key.keysym.sym == SDLK_UP || d->sdl.event.key.keysym.sym == SDLK_DOWN ||
+		d->sdl.event.key.keysym.sym == SDLK_LEFT || d->sdl.event.key.keysym.sym == SDLK_RIGHT)
+	else if (d->sdl.event.key.keysym.sym == SDLK_t)
+		if (!(d->flags & 1))
+			d->flags |= 1;
+			d->flags &= ~(1);
+	else if (d->sdl.event.key.keysym.sym == SDLK_s)
+	ft_draw_cursor_tex(d, d->frame_size * 10);
+	while (y <= d->img.menu.height)
+		while (x <= d->img.menu.width)
+			if (y == 0 || y == (d->img.menu.height - 1))
+				ft_surface_set_pixel(d->sdl.sur_ptr, x + d->img.net.width, y, d->color.menu_border);
+			if (x == 0 || x == (d->img.menu.width - 1))
+				ft_surface_set_pixel(d->sdl.sur_ptr, x + d->img.net.width, y, d->color.menu_border);
+	while (++y < d->height)
+		x = d->width - d->img.menu.width - 1;
+		while (++x < d->width)
+			ft_surface_set_pixel(d->sdl.sur_ptr, x, y, 0x000000);
+	if (d->sdl.event.wheel.y > 0)
+		d->scale *= 1.1f;
+	else if (d->sdl.event.wheel.y < 0)
+		d->scale /= 1.1f;
+	while (y < d->height)
+		while (x < d->img.net.width)
+			if (x <= d->border)
+				ft_surface_set_pixel(d->sdl.sur_ptr, x, y, 0);
+	while (y < d->height)
+		while (x < d->img.net.width)
+			if (x <= d->border)
+				if (((x % (int)(d->c * d->scale)) == 0))
+					ft_surface_set_pixel(d->sdl.sur_ptr, x, y, d->color.set);
+				if (((y % (int)(d->c * d->scale)) == 0))
+					ft_surface_set_pixel(d->sdl.sur_ptr, x, y, d->color.set);
+	tmp = d->lines;
+		tmp = head->head;
+		head = head->next;
+	tmp = d->lines;
+	if (d->sdl.event.key.keysym.sym == SDLK_UP)
+	else if (d->sdl.event.key.keysym.sym == SDLK_DOWN)
+	else if (d->sdl.event.key.keysym.sym == SDLK_LEFT)
+	else if (d->sdl.event.key.keysym.sym == SDLK_RIGHT)
+	d->player->pos.x += x;
+	d->player->pos.y += y;
+	ft_change_sec_coordinates(d->sect_head, x, y);
+	fprintf(d->log_fd, "\n\nAFTER MOVING\n\n");
+	ft_print_sector_lst(d->sect_head, d);
+	new->name[0] = 'A' + d->nb_ln;
+	new->x_s = (int)(d->x_s / (int)(d->c * d->scale));
+	new->x_e = (int)(d->x_e / (int)(d->c * d->scale));
+	new->y_s = (int)(d->y_s / (int)(d->c * d->scale));
+	new->y_e = (int)(d->y_e / (int)(d->c * d->scale));
+	d->nb_ln++;
+	d->part_ln++;
+	fprintf(d->log_fd, "create nodes\n");
+		d->tail = new;
+	d->tail = new;
+	d->player->pos.x = ft_where_point(d->sdl.event.button.x, d) / (int)(d->c * d->scale);
+	d->player->pos.y = ft_where_point(d->sdl.event.button.y, d) / (int)(d->c * d->scale);
+	d->player->but.x_len = 6;
+	d->player->but.y_len = 6;
+	d->player->is = 1;
+		d->point_lst = ft_memalloc(sizeof(t_points));
+		d->point_lst->x = tmp->x_s;
+		d->point_lst->y = tmp->y_s;
+		*res = d->point_lst;
+	ft_free_point_lst(d->point_lst);
+	d->point_lst = NULL;
+	tmp = d->lines;
+		res = d->point_lst;
+	tmp = d->lines;
+	ft_change_sec_coordinates(d->sect_head, -xmin, -ymin);
+		lst->head->coord = p->y;
+	p = d->point_lst;
+	d->output = fopen("NESRAL.log", )
+// 	if (d->flag_scroll == 0)
+// 	d->flag_scroll--;
+// 	d->nb_tex_cost = d->nb_tex_cost - 6 - d->nb_tex_left;
+// 	ft_tex(d, &(d->but[3]));
+// 	mlx_put_image_to_window(d->img.mlx_ptr, d->img.win_ptr,
+// 		d->img.menu.img_ptr, d->border, 1);
+// 	if ((ost = d->nb_tex % 6) == 0)
+// 		ost = d->nb_tex / 6 - 1;
+// 		ost = d->nb_tex / 6;
+// 	if (d->flag_scroll == ost)
+// 	d->flag_scroll++;
+// 	ft_tex(d, &(d->but[3]));
+// 	mlx_put_image_to_window(d->img.mlx_ptr, d->img.win_ptr,
+// 		d->img.menu.img_ptr, d->border, 1);
+	while (++x < d->width)
+		while (++y < d->height)
+			ft_surface_set_pixel(d->sdl.sur_ptr, x, y, 0x000000);
+	res = ft_memalloc(sizeof(char) * (ft_strlen(SDL_GetKeyName(d->sdl.event.key.keysym.sym)) + 1));
+	ft_strcpy(res, SDL_GetKeyName(d->sdl.event.key.keysym.sym));
+			ft_surface_set_pixel(d->sdl.sur_ptr, x + but->x, y + but->y,
+	ft_init_but(&d->smenu.ce_num, d->width * 120 / 2500, d->height * 40 / 1300, d->smenu.border.x + d->width * 20 / 2500);
+	ft_init_but_2(&d->smenu.ce_num, d->smenu.border.y + d->height * 60 / 1300, 0x34D800FF);
+	ft_button(d, &d->smenu.ce_num);
+	ft_init_but(&d->smenu.ce_left, d->width * 40 / 2500, d->height * 40 / 1300, d->smenu.ce_num.x + d->smenu.ce_num.x_len + d->width * 60 / 2500);
+	ft_init_but_2(&d->smenu.ce_left, d->smenu.ce_num.y, 0x34D800FF);
+	ft_button(d, &d->smenu.ce_left);
+	ft_left(d, &d->smenu.ce_left);
+	ft_init_but(&d->smenu.ce_tex, d->width * 40 / 2500, d->height * 40 / 1300, d->smenu.ce_left.x + d->smenu.ce_left.x_len + d->width * 20 / 2500);
+	ft_init_but_2(&d->smenu.ce_tex, d->smenu.ce_left.y, 0x34D800FF);
+	ft_button(d, &d->smenu.ce_tex);
+	ft_put_tex_to_but(d, &d->smenu.ce_tex, d->textures[sec->ceil_tex]);
+	ft_init_but(&d->smenu.ce_right, d->width * 40 / 2500, d->height * 40 / 1300, d->smenu.ce_tex.x + d->smenu.ce_tex.x_len + d->width * 20 / 2500);
+	ft_init_but_2(&d->smenu.ce_right, d->smenu.ce_tex.y, 0x34D800FF);
+	ft_button(d, &d->smenu.ce_right);
+	ft_right(d, &d->smenu.ce_right);
+	ft_init_but(&d->smenu.fl_num, d->width * 120 / 2500, d->height * 40 / 1300, d->smenu.border.x + d->width * 20 / 2500);
+	ft_init_but_2(&d->smenu.fl_num, d->smenu.ce_num.y + d->smenu.ce_num.y_len + d->height * 60 / 1300, 0x34D800FF);
+	ft_button(d, &d->smenu.fl_num);
+	ft_init_but(&d->smenu.fl_left, d->width * 40 / 2500, d->height * 40 / 1300, d->smenu.fl_num.x + d->smenu.fl_num.x_len + d->width * 60 / 2500);
+	ft_init_but_2(&d->smenu.fl_left, d->smenu.fl_num.y, 0x34D800FF);
+	ft_button(d, &d->smenu.fl_left);
+	ft_left(d, &d->smenu.fl_left);
+	ft_init_but(&d->smenu.fl_tex, d->width * 40 / 2500, d->height * 40 / 1300, d->smenu.fl_left.x + d->smenu.fl_left.x_len + d->width * 20 / 2500);
+	ft_init_but_2(&d->smenu.fl_tex, d->smenu.fl_left.y, 0x34D800FF);
+	ft_button(d, &d->smenu.fl_tex);
+	ft_put_tex_to_but(d, &d->smenu.fl_tex, d->textures[sec->floor_tex]);
+	ft_init_but(&d->smenu.fl_right, d->width * 40 / 2500, d->height * 40 / 1300, d->smenu.fl_tex.x + d->smenu.fl_tex.x_len + d->width * 20 / 2500);
+	ft_init_but_2(&d->smenu.fl_right, d->smenu.fl_tex.y, 0x34D800FF);
+	ft_button(d, &d->smenu.fl_right);
+	ft_right(d, &d->smenu.fl_right);
+	ft_init_but(&d->smenu.ok, d->width * 20 / 2500, d->height * 20 / 1300, d->smenu.border.x + d->smenu.border.x_len - d->width * 10 / 2500 - d->smenu.ok.x_len);
+	ft_init_but_2(&d->smenu.ok, d->smenu.border.y + d->height * 10 / 1300, 0x34D800FF);
+	ft_button(d, &d->smenu.ok);
+	b = &d->smenu.ok;
+	d->x_s = b->x + 1;
+	d->y_s = b->y + 1;
+	d->x_e = b->x + b->x_len - 1;
+	d->y_e = b->y + b->y_len - 1;
+	d->x_s = b->x + 1;
+	d->y_s = b->y + b->y_len - 1;
+	d->x_e = b->x + b->x_len - 1;
+	d->y_e = b->y + 1;
+	ft_init_but(&d->smenu.border, d->but[3].x_len, d->height * 500 / 1300, d->but[3].x);
+	ft_init_but_2(&d->smenu.border, d->but[3].y + d->but[3].y_len + d->height * 25 / 1300, 0x34D800FF);
+	ft_button(d, &d->smenu.border);
+	ft_put_nbr_to_but(d, sec->floor, &d->smenu.fl_num);
+	ft_put_nbr_to_but(d, sec->ceiling, &d->smenu.ce_num);
+	last = d->lines;
+	tmp = d->lines;
+		fprintf(d->log_fd, "x->%d, y->%d\n", tmp->x, tmp->y);
+		fprintf(d->log_fd, "\nSTARTED SECTOR\n");
+		fprintf(d->log_fd, "%p\n\n", sec);
+		fprintf(d->log_fd, "valid-->%d\n", sec->valid);
+		next = head->next;
+		ft_free_point_lst(head->head);
+	lines = d->lines;
+		old = old->next;
+		if (x == head->x && y == head->y)
+		head = head->next;
+				lst->head->x - curp->x, lst->head->y - curp->y);
+			// fprintf(d->log_fd, " \nx->%d, y->%d    %f\n",curp->x, curp->y, res);
+// 	// fprintf(d->log_fd, "\nThis one got in final\n\n");
+// 		// fprintf(d->log_fd, "\nfailed because of repeat\n\n");
+// 	if ((ft_check_inside_point(tmp, d->point_lst, lst, d))) //&&
+// 		// !(ft_lines_inside_sector(tmp, d->lines)))
+// 			// fprintf(d->log_fd, "\nfailed because of inside point\n\n");
+		while (head->next)
+			head = head->next;
+	line = d->lines;
+// 	ptmp = d->point_lst;
+							second->head))
+					second = second->next;
+	head = d->point_lst;
+		head = head->next;
+	cur = d->point_lst;
+			if (pres->x == lst->head->x && pres->y == lst->head->y)
+			cur = d->point_lst;
+	if (pres && ft_point_lst_len(lst->head) >= 3 && pres->x == lst->head->x && pres->y == lst->head->y && !ft_sector_repeat(d->sect_head, lst, d))
+		fprintf(d->log_fd, "PROSHEL\n\n");
+		ft_add_sec_to_sec_lst(&d->sect_head, lst);
+	line = d->lines;
+	pcur = d->point_lst;
+	ft_print_point_lst(d->point_lst, d);
+	pcur = d->point_lst;
+	phead = d->point_lst;
+	ft_launch_sec_finding(d, &d->sect_head, 1);
+	ft_clear_big_sectors(&(d->sect_head), d);
+	fprintf(d->log_fd, "\n\nAFTER\n\n");
+	d->flags |= (1 << 2);
+	d->flags &= ~(1 << 2);
+	d->flags = 0;
+	wall = d->lines;
+	if (d->nb_tex_set < d->nb_tex)
+		if (d->nb_tex_set < d->nb_tex - 1)
+			res->texture = d->nb_tex_set;
+	x = d->sdl.event.button.x;
+	y = d->sdl.event.button.y;
+		but = d->tex_but[i];
+			d->nb_tex_set = (i + d->nb_tex_off) % d->nb_tex;
+	sur = d->textures[wall->texture];
+	wall->but.x = d->x_s + (d->x_e - d->x_s) / 2 - size / 2;
+	wall->but.y = d->y_s + (d->y_e - d->y_s) / 2 - size / 2;
+	d->x_e = d->x_s + size;
+	d->y_e = d->y_s + size;
+				ft_surface_set_pixel(d->sdl.sur_ptr, j + wall->but.x,
+				ft_surface_set_pixel(d->sdl.sur_ptr, j + wall->but.x, i + wall->but.y, (255 << 16 | 123 << 8 | 123));
+	height = off_y + d->height * 200 / 1300;
+	width = off_x + (d->img.menu.width - d->width * 65 / 2500) / 3;
+				ft_surface_set_pixel(d->sdl.sur_ptr, x, y,
+				ft_surface_set_pixel(d->sdl.sur_ptr, x, y, 0xFF5050);
+		off_x = d->img.net.width + d->width * 65 / 2500 / 2 +
+			(d->img.menu.width - d->width * 65 / 2500) * i / 3;
+		off_y = d->img.menu.height / 3 + d->height * 19 / 1300;
+		d->tex_but[i].x = off_x;
+		d->tex_but[i].y = off_y;
+		d->tex_but[i].x_len = (d->img.menu.width - d->width * 65 / 2500) / 3;
+		d->tex_but[i].y_len = d->height * 200 / 1300;
+		ft_draw_tex(d, d->textures[(i + d->nb_tex_off) %
+			d->nb_tex], off_x, off_y);
+	d->nb_tex = ft_atoi(nb) + 1;
+	printf("tex->%d\n", d->nb_tex);
+	d->nb_tex_cost = 0;
+	if (d->nb_tex <= 0)
+	scale = bmp->w / d->tex_size;
+	tex = SDL_CreateRGBSurface(0, d->tex_size, d->tex_size, 32, 0, 0, 0, 0);
+	while (++i < d->tex_size)
+		while (++j < d->tex_size)
+			ft_surface_set_pixel(tex, j, i, ft_texture_get_pixel(bmp, j * bmp->w / d->tex_size,
+				i * bmp->h / d->tex_size, scale));
+	while (++i < d->nb_tex - 1)
+		d->bmps[i] = ft_bmp_read(d, line);
+		d->textures[i] = ft_transform_bmp__to_texture(d, d->bmps[i]);
+	d->bmps[i] = SDL_CreateRGBSurface(0, 1, 1, 32, 0, 0, 0, 0);
+	ft_surface_set_pixel(d->bmps[i], 0, 0, 0);
+	d->textures[i] = d->bmps[i];
+	if (!(d->sdl.win_ptr = SDL_CreateWindow(d->titel,
+											d->width, d->height,
+	if (!(d->sdl.sur_ptr = SDL_GetWindowSurface(d->sdl.win_ptr)))
+	//if (!(d->lines = (t_line *) malloc(sizeof(t_line))))
+	d->lines = NULL;
+	if (d->sdl.event.window.event == SDL_WINDOWEVENT_RESIZED)
+		SDL_GetWindowSize(d->sdl.win_ptr, &d->width, &d->height);
+		SDL_FreeSurface(d->sdl.sur_ptr);
+		d->sdl.sur_ptr = SDL_GetWindowSurface(d->sdl.win_ptr);
+	d->img.net.height = d->height;
+	d->img.net.width = d->width * 18 / 25 + 1;
+	d->img.menu.height = d->height -2;
+	d->img.menu.width = d->width * 7 / 25 - 2;
+	d->border = d->width * 18 / 25 + 2;
+	d->height = 1300;
+	d->width = 2500;
+	d->titel = "MAPED";
+	// d->c = 20;
+	d->c = 50;
+	d->scale = 1.0f;
+	d->frame_size = 4;
+	d->color.menu = 0x057D9FFF;
+	d->color.menu_border = 0xFF8500FF;
+	d->color.set = 0x1a3e70;
+	d->color.draw = 0xCFF700;
+	if (!(d->but = ft_memalloc(sizeof(t_button) * 6)) ||
+			!(d->tex_but = ft_memalloc(sizeof(t_button) * 3)))
+	d->nb_ln = 0;
+	d->log_fd = fopen("editor/logs.txt", "a+");
+	d->part_ln = 0;
+	d->flags = 0;
+	d->flag_scroll = 0;
+	d->nb_tex_off = 0;
+	d->nb_tex_set = 0;
+	d->tex_size = 256;
+	d->point_lst = NULL;
+	if (!(d->textures = (SDL_Surface **)ft_memalloc(sizeof(SDL_Surface *) * (d->nb_tex + 1))) ||
+		!(d->bmps = (SDL_Surface **)ft_memalloc(sizeof(SDL_Surface *) * (d->nb_tex + 1))) ||
+		!(d->player = (t_player *)ft_memalloc(sizeof(t_player))))
+	d->fd = 0;
+		d->fd = open(argv[1], O_RDWR | O_CREAT | O_EXCL , 777);
+		if (d->fd == -1)
+			d->fd = open(argv[1], O_RDWR);
+			if (d->fd == -1)
